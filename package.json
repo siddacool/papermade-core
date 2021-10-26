@@ -1,13 +1,13 @@
 {
   "name": "@papermade/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "author": "siddacool",
   "license": "ISC",
-  "description": "Paper is one shoe fits all component that can be modified and adapted to make layouts, UI components. It's written in SCSS and uses CSS variables that can be tinkered as per one's needs.",
+  "description": "One shoe fits all component written in SCSS and uses CSS variables that can be tinkered as per one's needs.",
   "devDependencies": {
     "sass": "^1.43.3"
   },
