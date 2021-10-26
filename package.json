@@ -1,15 +1,31 @@
 {
   "name": "@papermade/core",
-  "version": "0.0.2",
-  "main": "build",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "author": "siddacool",
   "license": "ISC",
-  "description": "",
+  "description": "Paper is one shoe fits all component that can be modified and adapted to make layouts, UI components. It's written in SCSS and uses CSS variables that can be tinkered as per one's needs.",
   "devDependencies": {
     "sass": "^1.43.3"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddacool/papermade-core.git"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "sass",
+    "paper",
+    "material",
+    "material-design",
+    "card",
+    "css",
+    "card"
+  ],
+  "homepage": "https://papermade.netlify.app/"
 }
