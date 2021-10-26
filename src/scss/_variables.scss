@@ -1,0 +1,79 @@
+:root {
+  // border radius
+  --paper-border-radius-1: 3px;
+  --paper-border-radius-2: 6px;
+  --paper-border-radius-3: 12px;
+  --paper-border-radius-4: 24px;
+  --paper-border-radius-5: 48px;
+  --paper-border-radius-6: 64px;
+  --paper-border-radius-7: 80px;
+  --paper-border-radius-8: 90px;
+  --paper-border-radius-9: 100px;
+  --paper-border-radius-10: 120px;
+  --paper-border-radius-circle: 50%;
+
+  // colors fragmented
+  --paper-elevation-color-h: 0deg;
+  --paper-elevation-color-s: 0%;
+  --paper-elevation-color-l: 0%;
+  --paper-elevation-color: var(--paper-elevation-color-h) var(--paper-elevation-color-s)
+    var(--paper-elevation-color-l);
+
+  // colors
+  --paper-color-bg-default: #fff;
+  --paper-color-border-default: #ddd9d9;
+  --paper-color-bg-black: var(--paper-color-bg-default);
+  --paper-color-bg-hollow: transparent;
+
+  --paper-color-bg-primary: #bbdefb;
+  --paper-color-border-primary: #64b5f6;
+
+  --paper-color-bg-secondary: #fce4ec;
+  --paper-color-border-secondary: #f8bbd0;
+
+  --paper-color-bg-dull: #cfd8dc;
+  --paper-color-border-dull: #b0bec5;
+
+  --paper-color-bg-danger: #ffcdd2;
+  --paper-color-border-danger: #ef9a9a;
+
+  --paper-color-bg-safe: #c8e6c9;
+  --paper-color-border-safe: #81c784;
+
+  --paper-color-bg-warning: #ffecb3;
+  --paper-color-border-warning: #ffd54f;
+
+  --paper-color-bg-info: #b2ebf2;
+  --paper-color-border-info: #4dd0e1;
+
+  // border
+  --paper-border-width: 1px;
+  --paper-border-style: solid;
+}
+
+.dark {
+  --paper-color-bg-default: #212121;
+  --paper-color-border-default: #403e3e;
+  --paper-color-bg-black: #000;
+
+  --paper-color-bg-primary: #1e3a5f;
+  --paper-color-border-primary: #1a517c;
+
+  --paper-color-bg-secondary: #5b2245;
+  --paper-color-border-secondary: #7c3950;
+
+  --paper-color-bg-dull: #3c3f43;
+  --paper-color-border-dull: #46565e;
+
+  --paper-color-bg-danger: #5c2b29;
+  --paper-color-border-danger: #b52f2f;
+
+  --paper-color-bg-safe: #345920;
+  --paper-color-border-safe: #3e9112;
+
+  --paper-color-bg-warning: #614a19;
+  --paper-color-border-warning: #a56615;
+
+  --paper-color-bg-info: #2d555e;
+  --paper-color-border-info: #288891;
+}
